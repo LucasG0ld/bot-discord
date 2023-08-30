@@ -1,11 +1,17 @@
 import discord
 from discord.ext import commands
+import json
 
 intents = discord.Intents.default()
 intents.members = True
 intents.reactions = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
+
+# Load the bot token from config.json
+with open('config.json', 'r') as config_file:
+    config = json.load(config_file)
+    BOT_TOKEN = config['BOT_TOKEN']
 
 # Replace these values with your actual IDs and names
 WELCOME_CHANNEL_ID = 1146533136658878494
@@ -78,4 +84,4 @@ async def on_raw_reaction_remove(payload):
                         await member.remove_roles(role)
 
 # Run the bot
-bot.run('MTE0NjUyNTY3NTc0MjgyMjUyMQ.G_tLOq.AdHnanRbJveAQbDLi-fKMl-ltCnIJKtG4YZByg')
+bot.run(BOT_TOKEN)

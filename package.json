@@ -1,0 +1,12 @@
+{
+    "name": "dos-argente",
+    "version": "1.0.0",
+    "description": "Gorille donne rôle",
+    "main": "dos-argente.py",
+    "scripts": {
+      "start": "python dos-argente.py"
+    },
+    "dependencies": {
+      "discord.py": "^2.3.2"
+    }
+  }
