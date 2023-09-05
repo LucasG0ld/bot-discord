@@ -1,6 +1,6 @@
 {
     "name": "dos-argente",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Gorille donne rôle",
     "main": "dos-argente.py",
     "scripts": {
