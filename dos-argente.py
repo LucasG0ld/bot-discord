@@ -26,7 +26,8 @@ role_mappings = {
     "💂": "World of Tanks",
     "🌳": "Minecraft",
     "🥇": "Teamfight Tactics",
-    "🚀": "War Thunder"
+    "🚀": "War Thunder",
+    "🎮" : "Proposition"
 }
 
 role_bases = {
