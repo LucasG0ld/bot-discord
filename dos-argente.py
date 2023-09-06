@@ -25,6 +25,7 @@ role_mappings = {
     "⭐": "Summoners War",
     "💂": "World of Tanks",
     "🌳": "Minecraft",
+    "🥚": "Dofus",
     "🥇": "Teamfight Tactics",
     "🚀": "War Thunder",
     "🎮" : "Proposition"
